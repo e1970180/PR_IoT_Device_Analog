@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PR_IoT_Analog		KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+announce		KEYWORD2
+update			KEYWORD2	
+inMsgCallback		KEYWORD2	
+setupHW			KEYWORD2
+loopHW			KEYWORD2
+getValuePercentage	KEYWORD2
+
+######################################
+# Constants (LITERAL1)
+######################################
+
+PR_ADC_ZERO    		LITERAL1
+PR_ADC_MAX    		LITERAL1
