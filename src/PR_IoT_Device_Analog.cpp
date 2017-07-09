@@ -2,10 +2,6 @@
 
     #include <arduino.h>    
 
-	void 	PR_IoT_Analog::announce() {
-		postMsg("analog", "HELLO"); 
-	}
-	
 	void 	PR_IoT_Analog::setupHW(uint8_t pin) {
 		_pin = pin;
 	}   

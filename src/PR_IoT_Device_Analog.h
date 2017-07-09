@@ -15,7 +15,7 @@ class PR_IoT_Analog : public PR_IoT_DeviceClass {
         public:
             PR_IoT_Analog(String name) : PR_IoT_DeviceClass(name)	{ } 
 
-            void 	announce();
+            //virtual void 	announce();			//could be overloaded here from base class
             void 	update();
             virtual void 	inMsgCallback(); 
             virtual void 	setupHW(uint8_t pin);			
